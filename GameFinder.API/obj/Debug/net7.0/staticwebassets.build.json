@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BH95zRRol8p7ihWPXCvxjZrVkxOgWRCRH4jaskYTlkU=",
+  "Source": "GameFinder.API",
+  "BasePath": "_content/GameFinder.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
