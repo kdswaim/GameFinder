@@ -26,3 +26,17 @@ C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Data\obj\Debug\net
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.pdb
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.genruntimeconfig.cache
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Data\obj\Debug\net7.0\ref\GameFimder.Data.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\bin\Debug\net7.0\GameFimder.Data.deps.json
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\bin\Debug\net7.0\GameFimder.Data.runtimeconfig.json
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\bin\Debug\net7.0\GameFimder.Data.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\bin\Debug\net7.0\GameFimder.Data.pdb
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\refint\GameFimder.Data.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.pdb
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\GameFimder.Data.genruntimeconfig.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Data\obj\Debug\net7.0\ref\GameFimder.Data.dll

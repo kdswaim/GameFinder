@@ -11,7 +11,6 @@ namespace GameFinder.Data.Contexts
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
         }
 
         // Add your DbSets here 
