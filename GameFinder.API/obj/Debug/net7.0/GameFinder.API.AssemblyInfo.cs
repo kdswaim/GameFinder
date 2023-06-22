@@ -10,11 +10,7 @@
 using System;
 using System.Reflection;
 
-<<<<<<< HEAD
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("3c3c5ece-b5db-428e-8b14-f6a49776bcc9")]
-=======
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b02add40-81bc-41c6-9ae3-09b92bc5e3c7")]
->>>>>>> c49a5c7083daa5e46bdb7a10fa5c79ddfd23c566
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameFinder.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
