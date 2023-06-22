@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Models.GameSystem
 {
+    // Idies are automatically created
     public class GameSystemCreate
     {
-        [Key]
-        public int Id { get; set; } 
-
         [Required]
         [MaxLength(200)]  
         public string Name { get; set; }   

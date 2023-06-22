@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Models.GameSystem
 {
-    public class GamesystemDetail
+    public class GameSystemDetail
     {
         public int Id { get; set; } 
 
