@@ -21,6 +21,7 @@
     <ProjectReference Include="..\GameFinder.Data\GameFimder.Data.csproj" />
     <ProjectReference Include="..\GameFinder.Models\GameFimder.Models.csproj" />
     <ProjectReference Include="..\GameFinder.Services\GameFimder.Services.csproj" />
+  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
 </Project>
