@@ -14,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IGameSystemService,GameSystemService>();
 builder.Services.AddAutoMapper(typeof(MappingConfigurations));
+builder.Services.AddScoped<IRatingServices,RatingServices>();
+builder.Services.AddScoped<IGameServices,GameServices>();
 
 var app = builder.Build();
 
