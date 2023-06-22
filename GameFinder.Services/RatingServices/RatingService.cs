@@ -48,7 +48,7 @@ namespace GameFinder.Services.RatingServices
             return ratingListItems;
         }
 
-        public async Task<RatingDetail> GetNote(int id)
+        public async Task<RatingDetail> GetRating(int id)
         {
             var rating = await _context.Ratings.FirstOrDefaultAsync(x=>x.Id == id);
             if(rating is null)
@@ -66,6 +66,21 @@ namespace GameFinder.Services.RatingServices
             var conversion = _mapper.Map<RatingEdit,Rating>(model, rating);
             _context.Ratings.Update(conversion);
             return await _context.SaveChangesAsync() > 0;
+        }
+
+        public async Task<RatingDetail> GetGameByRating(int avgScore, )
+        {
+            var ratings = await _context.Ratings.Where(r=> r.Score == avgScore).ToList();
+
+            if(ratings is null)
+                    return new RatingDetail;
+                
+            double total = 0.0;
+            foreach (Rating rating in Ratings)
+            {
+                total += rating.Score;
+            }
+            return total / Ratings.Count;
         }
     }
 }
