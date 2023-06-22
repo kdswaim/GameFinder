@@ -9,7 +9,7 @@ namespace GameFinder.Services
     public interface IGameSystemService
     {
         public Task<bool>CreatGameSystem(GameSystemCreate model);
-        public Task<bool>UpdateGameSystem(GameSystemEdit model);
+        public Task<bool>UpdateGameSystem(GameSystemUpdate model);
         public Task<bool>DeleteGameSystem(int id);
         public Task<GameSystemDetail>GetGameSystem(int id);
         public Task<List<GameSystemListItem>>GetGameSystems();

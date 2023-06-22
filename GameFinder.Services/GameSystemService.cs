@@ -11,13 +11,13 @@ using GameFinder.Data.Entities;
 
 namespace GameFinder.Services
 {
-    public class GameSystem : IGameSystemService
+    public class GameSystemService : IGameSystemService
     {
         private readonly ApplicationDbContext _context;
 
         private readonly IMapper _mapper;
 
-        public GameSystem(ApplicationDbContext context, IMapper mapper)
+        public GameSystemService(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -60,7 +60,7 @@ namespace GameFinder.Services
             return gameSystemListItems;
         }
 
-        public async Task<bool> UpdateGameSystem(GameSystemEdit model)
+        public async Task<bool> UpdateGameSystem(GameSystemUpdate model)
         {
             var gameSystem = await _context.GamingSystems.Include(g => g.Id).SingleOrDefaultAsync(x => x.Id == model.Id);
 

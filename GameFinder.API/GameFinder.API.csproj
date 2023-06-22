@@ -4,9 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>3c3c5ece-b5db-428e-8b14-f6a49776bcc9</UserSecretsId>
   </PropertyGroup>
-  
- <ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">

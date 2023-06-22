@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Models.GameSystem
 {
-    public class GameSystemEdit
+    public class GameSystemUpdate
     {
         [Required]  
         public int Id { get; set; } 
