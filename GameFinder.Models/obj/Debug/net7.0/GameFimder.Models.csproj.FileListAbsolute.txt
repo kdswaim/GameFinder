@@ -28,6 +28,23 @@ C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Models\obj\Debug\n
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Models\obj\Debug\net7.0\refint\GameFimder.Models.dll
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.pdb
 C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Models\obj\Debug\net7.0\ref\GameFimder.Models.dll
+<<<<<<< HEAD
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\bin\Debug\net7.0\GameFimder.Models.deps.json
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\bin\Debug\net7.0\GameFimder.Models.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\bin\Debug\net7.0\GameFimder.Models.pdb
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\bin\Debug\net7.0\GameFimder.Data.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\bin\Debug\net7.0\GameFimder.Data.pdb
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.csproj.CopyComplete
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\refint\GameFimder.Models.dll
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.pdb
+C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\obj\Debug\net7.0\ref\GameFimder.Models.dll
+=======
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.dll
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\refint\GameFimder.Models.dll
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.pdb
@@ -43,3 +60,4 @@ C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFim
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\GameFimder.Models.csproj.CopyComplete
 C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.Models\obj\Debug\net7.0\ref\GameFimder.Models.dll
+>>>>>>> d670d06a90d3d3e08251dc9b9c460d142a19d0f1

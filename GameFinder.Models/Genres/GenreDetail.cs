@@ -1,10 +1,10 @@
 using System.ComponentModel.DataAnnotations;
+using GameFinder.Models.Models;
 
-namespace GameFinder.Data.Entities
+namespace GameFinder.Models.Genres
 {
-    public class Genre
+    public class GenreDetail
     {
-        [Key]
         public int Id {get; set;}
         [Required]
         [MaxLength(100)]
@@ -12,6 +12,6 @@ namespace GameFinder.Data.Entities
         [Required]
         [MaxLength(200)]
         public string Description {get; set;}
-        public virtual List<Game> Games { get; set; }
+        public virtual List<GameListItem> Games { get; set; }
     }
 }

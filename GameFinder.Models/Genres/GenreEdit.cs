@@ -1,10 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GameFinder.Data.Entities
+namespace GameFinder.Models.Genres
 {
-    public class Genre
+    public class GenreEdit
     {
-        [Key]
         public int Id {get; set;}
         [Required]
         [MaxLength(100)]
@@ -12,6 +11,5 @@ namespace GameFinder.Data.Entities
         [Required]
         [MaxLength(200)]
         public string Description {get; set;}
-        public virtual List<Game> Games { get; set; }
     }
 }

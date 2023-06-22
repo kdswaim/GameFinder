@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameFimder.Models
+<<<<<<< HEAD
 build_property.ProjectDir = C:\elevenFiftyBlueBadge165\AgileProject\GameFinder\GameFinder.Models\
+=======
+build_property.ProjectDir = c:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.Models\
+>>>>>>> c49a5c7083daa5e46bdb7a10fa5c79ddfd23c566
