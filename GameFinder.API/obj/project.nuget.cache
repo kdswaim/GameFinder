@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uMllWdaHjnGyaTRDItZWriokp+YLM+OrGZW9SA4cgdOkmiEmLsNVbOOybhiNXNxl4ZxJOuCOnaoIMlyzEQ2qig==",
+  "dgSpecHash": "IXEBxDXMHMto3J/uaVBEsqFDkVIQlxIjIB69WoRy5IOhbj71jkaX2jrZtaoM0fnq06jHRUy3/CaTi85rBb3frw==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.API\\GameFinder.API.csproj",
+  "projectFilePath": "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.API\\GameFinder.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kkilk\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kkilk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -82,5 +82,12 @@
     "C:\\Users\\kkilk\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\kkilk\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

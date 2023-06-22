@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MR68m83P2Y1DGERSKX//LAPnt56JIj8K22NbaD1zbs00lDcEfYttrDD3UPJS1Od3sU06wxLOQUI3Pe1ll/1EcA==",
+  "dgSpecHash": "SsH9qbgS2ljIr8KX19DhyVGy/43JnlrMX7McDEBJ7kRWrECPoxVDHi+WAEKo/D+HDf+kLvYhecLtGiCrzNxPcA==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
+  "projectFilePath": "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kkilk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kkilk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -66,5 +66,12 @@
     "C:\\Users\\kkilk\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\kkilk\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
