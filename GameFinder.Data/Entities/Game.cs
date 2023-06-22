@@ -20,14 +20,14 @@ namespace GameFinder.Data.Entities
         public string Description { get; set; }
 
         public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
-
+        public virtual Genre Genre { get; set; }
         public double AverageRating
         {
             get
             {
-                if(Ratings.Count == 0)
+                if (Ratings.Count == 0)
                     return 0;
-                
+
                 double total = 0.0;
                 foreach (Rating rating in Ratings)
                 {

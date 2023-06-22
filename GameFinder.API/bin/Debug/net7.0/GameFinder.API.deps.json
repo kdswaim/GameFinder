@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "GameFinder.API/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "GameFimder.Data": "1.0.0",
           "GameFimder.Models": "1.0.0",
           "GameFimder.Services": "1.0.0",
