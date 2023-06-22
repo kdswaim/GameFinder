@@ -2,6 +2,7 @@ using AutoMapper;
 using GameFinder.Data.Contexts;
 using GameFinder.Data.Entities;
 using GameFinder.Models.Genres;
+using GameFinder.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace GameFinder.Services.Genres
@@ -53,6 +54,13 @@ namespace GameFinder.Services.Genres
 
             return _mapper.Map<GenreDetail>(genre);
         }
-      
+
+        public async Task<GenreDetail> GetGameByGenre(string genreName)
+        {
+             var genre = await _context.Genres.Include(g => g.Games).FirstOrDefaultAsync(g => g.Name == genreName);
+            if (genre is null) return new GenreDetail();
+
+            return _mapper.Map<GenreDetail>(genre);
+        }
     }
 }

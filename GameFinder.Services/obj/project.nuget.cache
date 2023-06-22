@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+E/MEcizcSV5lgie8i6KaAkl908JS1Tl13kwGLdpwIeYgf7OUrwRavNRntExzrUDYAAHpNPfCkyuJJoYwavZ3Q==",
+  "dgSpecHash": "bRSWfYx2RgaH0PLIKrqEkwrBDj6rbEtlv7S7YO4zAo0WwLKe9JZ1XyrfWoBayTqlr8Md9xO/bXcmjkQ/+NOUXw==",
   "success": true,
   "projectFilePath": "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj",
   "expectedPackageFiles": [
@@ -70,12 +70,5 @@
     "C:\\Users\\kkilk\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\kkilk\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

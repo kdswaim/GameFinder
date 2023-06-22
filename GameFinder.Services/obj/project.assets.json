@@ -3369,8 +3369,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-              "projectPath": "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
+            "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
             },
             "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
               "projectPath": "c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj"
@@ -3416,13 +3416,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

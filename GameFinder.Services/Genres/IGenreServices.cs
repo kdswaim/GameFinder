@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GameFinder.Models.Genres;
+using GameFinder.Models.Models;
 
 namespace GameFinder.Services.Genres
 {
@@ -13,6 +14,8 @@ namespace GameFinder.Services.Genres
         Task<bool> DeleteGenre(int id);
         Task<GenreDetail> GetGenreById(int id);
         Task<List<GenreListItem>> GetGenres();
+
+        Task<GenreDetail> GetGameByGenre(string genreName);
         
     }
 }

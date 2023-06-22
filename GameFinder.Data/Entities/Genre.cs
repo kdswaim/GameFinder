@@ -12,5 +12,6 @@ namespace GameFinder.Data.Entities
         [Required]
         [MaxLength(200)]
         public string Description {get; set;}
+        public virtual List<Game> Games { get; set; }
     }
 }

@@ -4,9 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b02add40-81bc-41c6-9ae3-09b92bc5e3c7</UserSecretsId>
   </PropertyGroup>
-  
- <ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">
@@ -21,7 +22,7 @@
     <ProjectReference Include="..\GameFinder.Data\GameFimder.Data.csproj" />
     <ProjectReference Include="..\GameFinder.Models\GameFimder.Models.csproj" />
     <ProjectReference Include="..\GameFinder.Services\GameFimder.Services.csproj" />
-  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
 </Project>
