@@ -67,20 +67,5 @@ namespace GameFinder.Services.RatingServices
             _context.Ratings.Update(conversion);
             return await _context.SaveChangesAsync() > 0;
         }
-
-        public async Task<RatingDetail> GetGameByRating(int avgScore, )
-        {
-            var ratings = await _context.Ratings.Where(r=> r.Score == avgScore).ToList();
-
-            if(ratings is null)
-                    return new RatingDetail;
-                
-            double total = 0.0;
-            foreach (Rating rating in Ratings)
-            {
-                total += rating.Score;
-            }
-            return total / Ratings.Count;
-        }
     }
 }
