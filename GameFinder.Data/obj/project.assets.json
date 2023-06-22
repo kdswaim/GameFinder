@@ -3425,24 +3425,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taous\\.nuget\\packages\\": {}
+    "C:\\Users\\kkilk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
       "projectName": "GameFimder.Data",
-      "projectPath": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
-      "packagesPath": "C:\\Users\\Taous\\.nuget\\packages\\",
-      "outputPath": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\obj\\",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "packagesPath": "C:\\Users\\kkilk\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Taous\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3495,13 +3503,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
