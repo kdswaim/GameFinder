@@ -17,5 +17,6 @@ namespace GameFinder.Data.Contexts
         public DbSet<GamingSystem> GamingSystems { get; set; }
         public DbSet<Game> Games { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
     }
 }
