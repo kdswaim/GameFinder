@@ -12,6 +12,6 @@ namespace GameFinder.Services.RatingServices
         Task<bool> UpdateRating(RatingEdit model);
         Task<bool> DeleteRating(int id);
         Task<RatingDetail> GetRating(int id);
-        Task<List<RatingListItem>> GetRatings();
+        Task<List<RatingListItem>> GetRatings(int id);
     }
 }

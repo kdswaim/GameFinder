@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameFinder.Services.RatingServices
 {
-    public class RatingService
+    public class RatingService : IRatingService
     {
         private readonly ApplicationDbContext _context;
         private IMapper _mapper;
@@ -48,7 +48,7 @@ namespace GameFinder.Services.RatingServices
             return ratingListItems;
         }
 
-        public async Task<RatingDetail> GetNote(int id)
+        public async Task<RatingDetail> GetRating(int id)
         {
             var rating = await _context.Ratings.FirstOrDefaultAsync(x=>x.Id == id);
             if(rating is null)

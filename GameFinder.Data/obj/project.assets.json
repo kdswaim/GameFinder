@@ -1206,7 +1206,7 @@
       ]
     },
     "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "sha512": "EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
       "type": "package",
       "path": "microsoft.csharp/4.5.0",
       "files": [
@@ -2447,7 +2447,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -3425,12 +3425,18 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\kkilk\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Kody\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
       "projectName": "GameFimder.Data",
       "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
@@ -3443,6 +3449,19 @@
       "configFilePaths": [
         "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "projectName": "GameFimder.Data",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3450,7 +3469,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
         "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3500,7 +3522,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
