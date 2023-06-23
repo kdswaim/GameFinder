@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.API\\GameFinder.API.csproj": {}
   },
   "projects": {
@@ -20,25 +19,6 @@
         "configFilePaths": [
           "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-    "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.API\\GameFinder.API.csproj": {}
-  },
-  "projects": {
-    "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.API\\GameFinder.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.API\\GameFinder.API.csproj",
-        "projectName": "GameFinder.API",
-        "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.API\\GameFinder.API.csproj",
-        "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.API\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,17 +26,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
                 "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
               },
@@ -65,16 +41,6 @@
               },
               "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj": {
                 "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj"
-=======
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
-              },
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj"
-              },
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj"
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
               }
             }
           }
@@ -135,11 +101,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -155,22 +120,6 @@
         "configFilePaths": [
           "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-    "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
-        "projectName": "GameFimder.Data",
-        "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
-        "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,10 +127,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -231,11 +177,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -251,22 +196,6 @@
         "configFilePaths": [
           "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-    "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
-        "projectName": "GameFimder.Models",
-        "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
-        "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,23 +203,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
                 "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
-=======
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
               }
             }
           }
@@ -320,11 +241,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -340,22 +260,6 @@
         "configFilePaths": [
           "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-    "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj",
-        "projectName": "GameFimder.Services",
-        "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\GameFimder.Services.csproj",
-        "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -363,29 +267,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
                 "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
               },
               "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
                 "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj"
-=======
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
-              },
-              "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj": {
-                "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj"
->>>>>>> b5c4b5b173be7fb090f5e0386e869df86c0d8cbb
               }
             }
           }
@@ -425,7 +318,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
