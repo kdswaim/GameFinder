@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameFinder.Services.RatingServices
 {
-    public class RatingService
+    public class RatingService : IRatingService
     {
         private readonly ApplicationDbContext _context;
         private IMapper _mapper;

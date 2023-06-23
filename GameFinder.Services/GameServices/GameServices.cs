@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameFinder.Services.GameServices
 {
-    public class GameServices
+    public class GameServices : IGameServices
     {
         private readonly ApplicationDbContext _context;
         private IMapper _mapper;
