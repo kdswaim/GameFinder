@@ -33,7 +33,7 @@ namespace GameFinder.API.Controllers
             return Ok(ratingDelete);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("/GetAllRatingsForGame/{id}")]
         public async Task<IActionResult> GetAllRatingsForGame(int id)
         {
             List<RatingListItem> reviewsForGame = await _ratingService.GetRatings(id);
