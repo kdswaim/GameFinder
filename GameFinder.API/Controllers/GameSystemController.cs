@@ -25,7 +25,7 @@ namespace GameFinder.API.Controllers
             List<GameSystemListItem> gamingSystems = await _gameSystemService.GetGameSystems();
             return Ok(gamingSystems);
         }
-
+        
 
         [HttpGet("{id:int}")] 
         public async Task<IActionResult> Get(int id)
@@ -34,6 +34,35 @@ namespace GameFinder.API.Controllers
             return Ok(gamingSystem);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Post(GameSystemCreate model)
+        {
+            if (!ModelState.IsValid)
+           {
+               return BadRequest(ModelState);
+            }
+            if (await _gameSystemService.CreateGameSystem(model))
+            {
+                return Ok("GameSystem created!");
+            }
+           else 
+           return StatusCode(500, "International Server Error.");
+       }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (await _gameSystemService.DeleteGameSystem(id))
+            {
+                return Ok("GameSystem deleted!");
+            }
+            else 
+            return StatusCode(500, "International Server Error.");
+        }
 
     }
 }

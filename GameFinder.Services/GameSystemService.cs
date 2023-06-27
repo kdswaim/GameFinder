@@ -23,7 +23,7 @@ namespace GameFinder.Services
             _mapper = mapper;
         }
 
-        public async Task<bool> CreatGameSystem(GameSystemCreate model)
+        public async Task<bool> CreateGameSystem(GameSystemCreate model)
         {
             var gameSystem = _mapper.Map<GamingSystem>(model);
 
@@ -44,7 +44,7 @@ namespace GameFinder.Services
 
         public async Task<GameSystemDetail> GetGameSystem(int id)
         {
-            var gameSystem = await _context.GamingSystems.Include(g => g.Id).SingleOrDefaultAsync(x => x.Id == id);
+            var gameSystem = await _context.GamingSystems.SingleOrDefaultAsync(x => x.Id == id);
             
             if (gameSystem is null) return new GameSystemDetail{};
 
@@ -62,7 +62,7 @@ namespace GameFinder.Services
 
         public async Task<bool> UpdateGameSystem(GameSystemUpdate model)
         {
-            var gameSystem = await _context.GamingSystems.Include(g => g.Id).SingleOrDefaultAsync(x => x.Id == model.Id);
+            var gameSystem = await _context.GamingSystems.SingleOrDefaultAsync(x => x.Id == model.Id);
 
             if (gameSystem is null) return false;
 
