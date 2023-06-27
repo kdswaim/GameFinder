@@ -9,5 +9,6 @@ namespace GameFinder.Models.Models
     {
         public int Id { get; set; }
         public int GameId { get; set; }
+        public double Score { get; set; }
     }
 }

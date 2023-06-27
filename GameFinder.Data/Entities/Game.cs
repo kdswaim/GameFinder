@@ -20,6 +20,7 @@ namespace GameFinder.Data.Entities
         public string Description { get; set; }
 
         public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
+        public int? GenreId { get; set; }
         public virtual Genre Genre { get; set; }
         public double AverageRating
         {
