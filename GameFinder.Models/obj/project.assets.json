@@ -3198,32 +3198,67 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taous\\.nuget\\packages\\": {}
+<<<<<<< HEAD
+    "C:\\Users\\kkilk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Kody\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
       "projectName": "GameFimder.Models",
-      "projectPath": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
-      "packagesPath": "C:\\Users\\Taous\\.nuget\\packages\\",
-      "outputPath": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Models\\obj\\",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
+      "packagesPath": "C:\\Users\\kkilk\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Taous\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
+      "projectName": "GameFimder.Models",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\GameFimder.Models.csproj",
+      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Models\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+        "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
-              "projectPath": "C:\\elevenFiftyBlueBadge165\\AgileProject\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
+<<<<<<< HEAD
+            "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
+=======
+            "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj"
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
             }
           }
         }
@@ -3256,5 +3291,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
