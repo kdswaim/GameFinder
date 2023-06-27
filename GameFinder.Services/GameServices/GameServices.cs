@@ -42,7 +42,7 @@ namespace GameFinder.Services.GameServices
 
         public async Task<List<GameListItem>> GetGames()
         {
-            var games = await _context.Games.ToListAsync();
+            var games = await _context.Games.Include(g=> g.Ratings).ToListAsync();
             var gameListItems = _mapper.Map<List<GameListItem>>(games);
 
             return gameListItems;
@@ -50,7 +50,7 @@ namespace GameFinder.Services.GameServices
 
         public async Task<GameDetail> GetGame(int id)
         {
-            var game = await _context.Games.FirstOrDefaultAsync(x=>x.Id == id);
+            var game = await _context.Games.Include(g=> g.Ratings).FirstOrDefaultAsync(x=>x.Id == id);
             if(game is null)
                 return new GameDetail();
 

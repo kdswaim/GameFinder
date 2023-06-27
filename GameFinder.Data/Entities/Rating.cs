@@ -17,6 +17,7 @@ namespace GameFinder.Data.Entities
         public int GameId { get; set; }
 
         [Required]
+        [Range(0.0, 5.0)]
         public double Score { get; set; }
     }
 }

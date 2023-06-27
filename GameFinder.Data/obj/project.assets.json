@@ -3425,12 +3425,18 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\kkilk\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Kody\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
       "projectName": "GameFimder.Data",
       "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
@@ -3443,6 +3449,19 @@
       "configFilePaths": [
         "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "projectName": "GameFimder.Data",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\GameFimder.Data.csproj",
+      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\GameFinder\\GameFinder.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3450,7 +3469,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
         "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

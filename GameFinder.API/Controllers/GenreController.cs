@@ -46,7 +46,7 @@ namespace GameFinder.API.Controllers
             return StatusCode(500, "Internal Server Error.");
         }
 
-        [HttpPut]
+         [HttpPut("(id:int)")]
         public async Task<IActionResult> Put(GenreEdit model)
         {
             if (!ModelState.IsValid)
@@ -62,7 +62,7 @@ namespace GameFinder.API.Controllers
             }
         }
 
-        [HttpPut]
+         [HttpDelete("(id:int)")]
         public async Task<IActionResult> Delete( int id)
         {
             if (id<=0)

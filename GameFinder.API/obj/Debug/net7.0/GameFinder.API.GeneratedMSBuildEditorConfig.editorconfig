@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameFinder.API
 build_property.RootNamespace = GameFinder.API
+<<<<<<< HEAD
 build_property.ProjectDir = c:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.API\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\ElevenFiftyBlueBadge165\GameFinder\GameFinder\GameFinder.API
+=======
+build_property.ProjectDir = C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.API\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ElevenFiftyBlueBadge165\GameFinder\GameFinder.API
+>>>>>>> 8612e55fabf20a16b092fd4bd80a9066c66eb44d
 build_property._RazorSourceGeneratorDebug = 
